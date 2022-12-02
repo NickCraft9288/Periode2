@@ -1,4 +1,4 @@
-//Copy Paste van JavaScript Canvas Opdracht
+//Copy Paste van JavaScript Canvas Opdracht Placeholder Code
 
 var mijnObject; // Aan dit object koppelen we een figuur
 var canvasNieuw;
