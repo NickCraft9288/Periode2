@@ -26,6 +26,14 @@ nav ul {
     list-style: none;
     display: flex;
     overflow:none;
+    justify-content: space-around;
+}
+
+.sort {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75vh;
 }
 
 nav a {
@@ -41,7 +49,7 @@ nav a {
     float: left;
     overflow:none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding-left: 2.5vw;
 }
 
