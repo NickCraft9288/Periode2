@@ -39,7 +39,7 @@ nav ul {
 nav a {
     float: left;
     font-size: 18px;
-    color: white;
+    color: cyan;
     text-align: center;
     padding: 16px 16px;
     text-decoration: none;
@@ -57,7 +57,7 @@ nav a {
     font-size: 16px;  
     border: none;
     outline: none;
-    color: white;
+    color: cyan;
     padding: 16px 16px;
     background-color: inherit;
     font-family: inherit;
