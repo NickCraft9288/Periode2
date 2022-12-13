@@ -13,6 +13,7 @@ body {
     
     /*Voor Posities*/
     min-height: 100vh;
+    background-color:powderblue;
 }
 
 /*Navigatie*/
@@ -64,12 +65,13 @@ nav a {
 }
 
 nav a:hover, .subnav:hover .subnavbtn {
-    background-color: red;
+    background-color:cyan;
+    color: black;
 }
 
 .subnav-content {
     display: none;
-    background-color: red;
+    background-color:black;
 }
 
 .subnav-content a {
@@ -78,8 +80,9 @@ nav a:hover, .subnav:hover .subnavbtn {
  }
 
 .subnav-content a:hover {
-    background-color: yellow;
+    background-color: cyan;
     color: black;
+    box-shadow: 0rem 0rem 0.1rem 0rem black;
 }
 
 .subnav:hover .subnav-content {
