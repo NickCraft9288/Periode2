@@ -9,8 +9,7 @@ html {
     font-size: 62.5%;
 }
 
-body {
-    
+body { 
     /*Voor Posities*/
     min-height: 100vh;
     position: relative;
@@ -34,12 +33,12 @@ nav ul {
     justify-content: space-around;
 }
 
-    /*Maakt ruimte tussen de home en andere nav items*/
+/*Maakt ruimte tussen de home en andere nav items*/
 .space_between {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 40vw;
+    width: 40%;
 }
 
 nav a {
@@ -82,7 +81,7 @@ nav a:hover, .subnav:hover .subnavbtn {
 .subnav-content a {
     color: cyan;
     text-decoration: none;
- }
+}
 
 .subnav-content a:hover {
     background-color: cyan;
@@ -97,9 +96,10 @@ nav a:hover, .subnav:hover .subnavbtn {
 
 /*main*/
 main {
+    position: relative;
     width: 100%;
-    min-height: 100vh;
-    padding-bottom: 10vh;
+    min-height: 80vh;
+    padding-bottom: 9.6vh;
 }
 
 section {
@@ -110,14 +110,13 @@ section {
 }
 
 footer {
-    height: 8.2vh;
+    min-height: 8.2vh;
     width: 100%;
     background-color: black;
-    position: absolute;
+    color: white;
+    position:absolute;
     bottom: 0;
     left: 0;
-    color: white;
-
     font-size: 2.5vh;
     display: flex;
     justify-content: center;
