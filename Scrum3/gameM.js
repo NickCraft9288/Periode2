@@ -241,7 +241,7 @@ function BotsingP() {
  } else {
     points++;
     document.getElementById("points").innerHTML = "Points: " + points;
-    Spr3PosX = Math.floor(Math.random() * 300) + 200; Spr3PosY = Math.floor(Math.random() * 300) + 200;
+    Spr3PosX = Math.floor(Math.random() * 399) + 1; Spr3PosY = Math.floor(Math.random() * 399) + 1;
 }}
 
 //Eind Scherm
