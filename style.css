@@ -99,7 +99,7 @@ main {
     position: relative;
     width: 100%;
     min-height: 80vh;
-    padding-bottom: 9.6vh;
+    padding-bottom: 3.6vh;
 }
 
 section {
@@ -107,6 +107,7 @@ section {
     color: black;
     padding-top: 5vh;
     padding-left: 2.5vw;
+    flex-wrap: ;
 }
 
 footer {
