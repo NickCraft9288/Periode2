@@ -20,7 +20,7 @@ var ctx = MyCanvas.getContext("2d"); // Koppelen aan 2D modus
         let Spr2E2PosX = 300;
         let Spr2E2PosY = 300;
     // Sprite3
-        let Spr3Formaat = 40;
+        let Spr3Formaat = 30;
         let Spr3PosX = 200;
         let Spr3PosY = 200;
     // Toetsen
@@ -36,7 +36,7 @@ document.addEventListener("keyup",function(uitlezen){
 })
 
 
-setInterval(speelVeldUpdate,10); // Om de 10 cycles uitvoeren functie speelveldupdate
+setInterval(speelVeldUpdate,7.5); // Om de 7.5 cycles uitvoeren functie speelveldupdate
 
 // VeldUpdate + Sprite1 Movements + Functies heroproepen
 function speelVeldUpdate() {
@@ -241,7 +241,7 @@ function BotsingP() {
  } else {
     points++;
     document.getElementById("points").innerHTML = "Points: " + points;
-    Spr3PosX = Math.floor(Math.random() * 900) + 1; Spr3PosY = Math.floor(Math.random() * 400) + 1;
+    Spr3PosX = Math.floor(Math.random() * 300) + 200; Spr3PosY = Math.floor(Math.random() * 300) + 200;
 }}
 
 //Eind Scherm
