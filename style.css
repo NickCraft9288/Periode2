@@ -208,3 +208,15 @@ footer {
         border-radius: 15px;
         cursor: pointer;
     }
+
+    body.homepage {
+        background-image: url("https://wallpaperaccess.com/full/242332.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+
+      section.hometext {
+        color: cyan;
+        text-align: center;
+      }
