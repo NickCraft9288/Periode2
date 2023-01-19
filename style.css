@@ -98,8 +98,8 @@ nav a:hover, .subnav:hover .subnavbtn {
 main {
     position: relative;
     width: 100%;
-    min-height: 80vh;
-    padding-bottom: 3.6vh;
+    min-height: 70vh;
+    padding-bottom: 8.6vh;
 }
 
 section {
