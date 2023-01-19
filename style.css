@@ -186,4 +186,25 @@ footer {
       color: white;
       font-size: 2em;
     }
+
+    /* game L */
     
+    #gameContainer{
+        text-align: center;   /* centreerd de game naar het midden */
+    }
+    #gameBoard{
+        border: 3px solid;   /* rand van de game */
+    }
+    #scoreText{
+        font-family: "Serif", cursive;       /* style van de score */
+        font-size: 100px;
+    }
+    #resetBtn{ 
+        font-family: "Serif", cursive;     /* style van de reset knop */
+        font-size: 22px;
+        width: 100px;
+        height: 50px;
+        border: 4px solid;
+        border-radius: 15px;
+        cursor: pointer;
+    }
