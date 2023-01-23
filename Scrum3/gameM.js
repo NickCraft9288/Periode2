@@ -124,14 +124,14 @@ function BotsingE1() {
     var Spr2E1rechts = Spr2E1PosX + helftGrooteSpr2E1;
 //test voor levens
 if(Spr1beneden < Spr2E1boven || Spr1boven > Spr2E1beneden || Spr1rechts < Spr2E1links || Spr1links > Spr2E1rechts){
-// niets
+// als niets
 } else {
     levens--;
     document.getElementById("levens").innerHTML = "Nog " + levens + " Levens";
     Spr1PosX = 50; Spr1PosY = 50;
     Spr2E1PosX = Math.floor(Math.random() * 200) + 200; Spr2E1PosY = Math.floor(Math.random() * 200) + 200;
     Spr2E2PosX = Math.floor(Math.random() * 200) + 200; Spr2E2PosY = Math.floor(Math.random() * 200) + 200;
-    Eindscherm();
+    EndScreen();
 }}
 
 
@@ -186,7 +186,7 @@ if(Spr1beneden < Spr2E2boven || Spr1boven > Spr2E2beneden || Spr1rechts < Spr2E2
     telSpr2E2 = -200;
     richtSpr2E2PosX = -2;
     richtSpr2E2PosY = -2;
-    Eindscherm();
+    EndScreen();
 }}
 
 
@@ -237,7 +237,7 @@ function BotsingP() {
 
  //test voor punten
  if(Spr1beneden < Spr3boven || Spr1boven > Spr3beneden || Spr1rechts < Spr3links || Spr1links > Spr3rechts){
-    // niets
+    // als niets
  } else {
     points++;
     document.getElementById("points").innerHTML = "Points: " + points;
@@ -245,7 +245,7 @@ function BotsingP() {
 }}
 
 //Eind Scherm
-function Eindscherm() {
+function EndScreen() {
 if (levens <= 0){
     Spr1PosX = 50; Spr1PosY = 50;
     Spr2E1PosX = 200; Spr2E1PosY = 200;
